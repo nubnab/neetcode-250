@@ -17,6 +17,6 @@ class ValidAnagramTest {
     void invalidAnagram_shouldReturnFalse() {
         assertFalse(validAnagram.isAnagram("jar", "jam"));
     }
-    
+
 
 }
