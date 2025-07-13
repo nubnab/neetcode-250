@@ -9,13 +9,13 @@ class LongestCommonPrefixTest {
     private final LongestCommonPrefix longestCommonPrefix = new LongestCommonPrefix();
 
     @Test
-    void longestCommonPrefix_shouldReturnBa() {
+    void longestCommonPrefix_shouldReturn_ba() {
         assertEquals("ba",
                 longestCommonPrefix.longestCommonPrefix(new String[]{"bat","bag","bank","band"}));
     }
 
     @Test
-    void longestCommonPrefix_shouldReturnDa() {
+    void longestCommonPrefix_shouldReturn_da() {
         assertEquals("da",
                 longestCommonPrefix.longestCommonPrefix(new String[]{"dance","dag","danger","damage"}));
     }
